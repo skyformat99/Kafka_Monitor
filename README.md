@@ -7,12 +7,12 @@
 
 # 操作步骤
 
-- zabbix web端
+### zabbix web端
 1、创建探索规则
 2、创建项目原型
 3、创建触发器类型
 
-- zabbix agent端
+### zabbix agent端
 
 1、vim zabbix_agentd.conf
 ```sql
