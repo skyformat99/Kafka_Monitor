@@ -28,7 +28,6 @@ class Kafka_topic():
         url = "http://xxx.xx.com/clusters/xxx/topics"
         res = requests.get(url=url, headers=self.headers)
         html = etree.HTML(res.text)
-        # print(type(html))
         # print html.xpath('//a/@href')
         topic_list = html.xpath('//td[@class="\n    \n"]/a/text()')
         # print topic_list
