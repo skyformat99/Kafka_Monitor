@@ -25,7 +25,7 @@ class Kafka_topic():
 
     def get_topic_list(self):
         """获取Topic列表"""
-        url = "http://kafka_manager.xwjrfw.cn:8080/clusters/Kafka-1/topics"
+        url = "http://xxx.xx.com/clusters/xxx/topics"
         res = requests.get(url=url, headers=self.headers)
         html = etree.HTML(res.text)
         # print(type(html))
